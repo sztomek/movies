@@ -25,6 +25,12 @@ class DataModule {
     }
 
     @Provides
+    @Named("posterUrl")
+    fun providePosterUrl(): String {
+        return "https://image.tmdb.org/t/p/w500"
+    }
+
+    @Provides
     @Named("apiKey")
     fun provideApiKey(): String {
         return "43a7ea280d085bd0376e108680615c7f"
@@ -60,8 +66,8 @@ class DataModule {
     }
 
     @Provides
-    fun provideDataSource(restApi: RestApi, @Named("apiKey") apiKey: String): DataSource {
-        return DataSourceImpl(apiKey, restApi)
+    fun provideDataSource(restApi: RestApi, @Named("apiKey") apiKey: String, @Named("posterUrl") posterUrl: String): DataSource {
+        return DataSourceImpl(apiKey, restApi, posterUrl)
     }
 
 }

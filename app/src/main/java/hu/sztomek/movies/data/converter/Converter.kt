@@ -7,10 +7,10 @@ import hu.sztomek.movies.domain.model.details.MovieDetails
 import hu.sztomek.movies.domain.model.search.SearchItem
 import hu.sztomek.movies.domain.model.search.SearchResult
 
-fun MovieDetailsResponse.toDomainModel() = MovieDetails(
+fun MovieDetailsResponse.toDomainModel(posterUrl: String) = MovieDetails(
         this.id!!,
         this.title,
-        this.posterPath,
+        posterUrl + this.posterPath,
         this.budget,
         this.releaseDate,
         this.voteCount,
@@ -19,17 +19,17 @@ fun MovieDetailsResponse.toDomainModel() = MovieDetails(
         this.productionCompanies?.get(0)?.name
 )
 
-fun SearchMoviesResult.toDomainModel(budget: Int? = null) = SearchItem(
+fun SearchMoviesResult.toDomainModel(budget: Int? = null, posterUrl: String) = SearchItem(
         this.id!!,
         this.title,
         this.voteAverage,
-        this.posterPath,
+        posterUrl + this.posterPath,
         budget
 )
 
-fun SearchMoviesResponse.toDomainModel(): SearchResult {
+fun SearchMoviesResponse.toDomainModel(posterUrl: String): SearchResult {
     val items: MutableList<SearchItem> = mutableListOf()
-    this.results?.forEach { items.add(it.toDomainModel()) }
+    this.results?.forEach { items.add(it.toDomainModel(posterUrl = posterUrl)) }
 
     return SearchResult(
             this.page ?: 0,

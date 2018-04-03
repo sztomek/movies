@@ -1,5 +1,7 @@
 package hu.sztomek.movies.domain.model.details
 
+import hu.sztomek.movies.domain.model.DomainModel
+
 data class MovieDetails(
         val id: Int,
         val title: String?,
@@ -10,4 +12,4 @@ data class MovieDetails(
         val rating: Double?,
         val playTime: Int?,
         val company: String?
-)
+) : DomainModel

@@ -1,18 +1,19 @@
 package hu.sztomek.movies.domain.usecase
 
 import hu.sztomek.movies.domain.DataSource
+import hu.sztomek.movies.domain.action.SearchAction
 import hu.sztomek.movies.domain.model.search.SearchItem
 import hu.sztomek.movies.domain.model.search.SearchResult
 import io.reactivex.Observable
 import io.reactivex.ObservableTransformer
 import javax.inject.Inject
 
-class SearchUseCase @Inject constructor(private val dataSource: DataSource) {
+class SearchUseCase @Inject constructor(private val dataSource: DataSource) : UseCase<SearchAction, SearchResult> {
 
-    fun execute(query: String, page: Int, transformer: ObservableTransformer<SearchResult, SearchResult>): Observable<SearchResult> {
+    override fun execute(action: SearchAction, transformer: ObservableTransformer<SearchResult, SearchResult>): Observable<SearchResult> {
         val observable = Observable.create<SearchResult> { emitter ->
             try {
-                val searchResult = dataSource.searchMovies(query, page)
+                val searchResult = dataSource.searchMovies(action.query, action.page)
                         .blockingFirst()
                 val items = mutableListOf<SearchItem>()
                 searchResult.items.forEach {
