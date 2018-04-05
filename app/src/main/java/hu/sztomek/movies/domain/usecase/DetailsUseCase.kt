@@ -1,6 +1,6 @@
 package hu.sztomek.movies.domain.usecase
 
-import hu.sztomek.movies.domain.DataSource
+import hu.sztomek.movies.domain.data.DataSource
 import hu.sztomek.movies.domain.action.GetDetailsAction
 import hu.sztomek.movies.domain.model.details.MovieDetails
 import io.reactivex.Observable

@@ -1,12 +1,12 @@
 package hu.sztomek.movies.presentation.screen.search
 
 import hu.sztomek.movies.R
-import hu.sztomek.movies.domain.Operation
-import hu.sztomek.movies.domain.ResourceHelper
 import hu.sztomek.movies.domain.action.Action
+import hu.sztomek.movies.domain.action.Operation
 import hu.sztomek.movies.domain.action.SearchAction
 import hu.sztomek.movies.domain.exception.DomainException
 import hu.sztomek.movies.domain.model.search.SearchResult
+import hu.sztomek.movies.domain.resource.ResourceHelper
 import hu.sztomek.movies.domain.usecase.SearchUseCase
 import hu.sztomek.movies.presentation.common.BaseViewModel
 import hu.sztomek.movies.presentation.common.UiError

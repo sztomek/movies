@@ -1,4 +1,4 @@
-package hu.sztomek.movies.domain
+package hu.sztomek.movies.domain.data
 
 import hu.sztomek.movies.domain.model.details.MovieDetails
 import hu.sztomek.movies.domain.model.search.SearchResult

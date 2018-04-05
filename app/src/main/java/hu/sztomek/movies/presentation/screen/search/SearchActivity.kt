@@ -30,8 +30,7 @@ class SearchActivity : BaseActivity<SearchUiModel>() {
         rvList.addItemDecoration(itemDecoration)
         rvList.adapter = moviesAdapter
         moviesAdapter.clickListener = {
-            // TODO navigate
-            Toast.makeText(this, "Clicked movie: ${it.title}", Toast.LENGTH_SHORT).show()
+            navigator.goDetails(it.movieId)
         }
 
         paginate = Paginate.with(rvList, object : Paginate.Callbacks {

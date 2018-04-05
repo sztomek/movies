@@ -1,6 +1,5 @@
-package hu.sztomek.movies.domain
+package hu.sztomek.movies.domain.action
 
-import hu.sztomek.movies.domain.action.Action
 import hu.sztomek.movies.domain.exception.DomainException
 import hu.sztomek.movies.domain.model.DomainModel
 

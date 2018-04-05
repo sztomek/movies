@@ -1,4 +1,4 @@
-package hu.sztomek.movies.domain
+package hu.sztomek.movies.domain.resource
 
 interface ResourceHelper {
 

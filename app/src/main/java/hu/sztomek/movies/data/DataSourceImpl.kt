@@ -1,7 +1,7 @@
 package hu.sztomek.movies.data
 
 import hu.sztomek.movies.data.converter.toDomainModel
-import hu.sztomek.movies.domain.DataSource
+import hu.sztomek.movies.domain.data.DataSource
 import hu.sztomek.movies.domain.model.details.MovieDetails
 import hu.sztomek.movies.domain.model.search.SearchResult
 import io.reactivex.Observable

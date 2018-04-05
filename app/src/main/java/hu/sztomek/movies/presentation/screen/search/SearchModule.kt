@@ -8,14 +8,15 @@ import android.view.View
 import dagger.Module
 import dagger.Provides
 import hu.sztomek.movies.R
-import hu.sztomek.movies.domain.ResourceHelper
+import hu.sztomek.movies.domain.image.ImageLoader
+import hu.sztomek.movies.domain.resource.ResourceHelper
 
 @Module
 class SearchModule {
 
     @Provides
-    fun provideMoviesAdapter(): MoviesAdapter {
-        return MoviesAdapter()
+    fun provideMoviesAdapter(imageLoader: ImageLoader): MoviesAdapter {
+        return MoviesAdapter(imageLoader)
     }
 
     @Provides

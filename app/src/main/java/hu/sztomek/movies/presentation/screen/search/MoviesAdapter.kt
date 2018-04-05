@@ -3,13 +3,13 @@ package hu.sztomek.movies.presentation.screen.search
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 import hu.sztomek.movies.R
+import hu.sztomek.movies.device.image.ImageViewTarget
+import hu.sztomek.movies.domain.image.ImageLoader
 import hu.sztomek.movies.presentation.model.SearchItemUiModel
 import kotlinx.android.synthetic.main.item_seach_result.view.*
 
-class MoviesAdapter(var clickListener: ((item: SearchItemUiModel) -> Unit)? = null) : RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
+class MoviesAdapter(private val imageLoader: ImageLoader, var clickListener: ((item: SearchItemUiModel) -> Unit)? = null) : RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
 
     private val data = mutableListOf<SearchItemUiModel>()
 
@@ -34,13 +34,7 @@ class MoviesAdapter(var clickListener: ((item: SearchItemUiModel) -> Unit)? = nu
     inner class ViewHolder(parent: ViewGroup) : RecyclerView.ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_seach_result, parent, false)) {
 
         fun bind(item: SearchItemUiModel) {
-            Glide.with(itemView)
-                    .setDefaultRequestOptions(
-                            RequestOptions()
-                                    .error(R.drawable.ic_broken)
-                    )
-                    .load(item.posterUrl)
-                    .into(itemView.ivPoster)
+            imageLoader.loadAndDisplayAsync(item.posterUrl, ImageViewTarget(itemView.ivPoster))
             itemView.tvTitle.text = item.title
             itemView.tvRating.text = item.rating
             itemView.tvBudget.text = item.budget

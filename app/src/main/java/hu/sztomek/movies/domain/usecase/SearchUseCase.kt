@@ -1,6 +1,6 @@
 package hu.sztomek.movies.domain.usecase
 
-import hu.sztomek.movies.domain.DataSource
+import hu.sztomek.movies.domain.data.DataSource
 import hu.sztomek.movies.domain.action.SearchAction
 import hu.sztomek.movies.domain.model.search.SearchItem
 import hu.sztomek.movies.domain.model.search.SearchResult

@@ -1,7 +1,7 @@
-package hu.sztomek.movies.device
+package hu.sztomek.movies.device.resource
 
 import android.content.res.Resources
-import hu.sztomek.movies.domain.ResourceHelper
+import hu.sztomek.movies.domain.resource.ResourceHelper
 
 class ResourceHelperImpl(private val resources: Resources) : ResourceHelper {
 

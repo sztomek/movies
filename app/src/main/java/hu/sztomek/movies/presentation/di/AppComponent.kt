@@ -14,6 +14,7 @@ import hu.sztomek.movies.presentation.app.MoviesApplication
         AppModule::class,
         DataModule::class,
         DeviceModule::class,
+        NavigatorModule::class,
         ViewModelBinderModule::class,
         ActivityBinderModule::class
 ))

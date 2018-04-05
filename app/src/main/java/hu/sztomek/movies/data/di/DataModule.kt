@@ -4,7 +4,7 @@ import dagger.Module
 import dagger.Provides
 import hu.sztomek.movies.data.DataSourceImpl
 import hu.sztomek.movies.data.RestApi
-import hu.sztomek.movies.domain.DataSource
+import hu.sztomek.movies.domain.data.DataSource
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

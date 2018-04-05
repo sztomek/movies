@@ -5,6 +5,7 @@ import android.arch.lifecycle.ViewModelProvider
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
+import hu.sztomek.movies.presentation.screen.details.MovieDetailsViewModel
 import hu.sztomek.movies.presentation.screen.search.SearchViewModel
 
 @Module
@@ -14,6 +15,11 @@ interface ViewModelBinderModule {
     @IntoMap
     @ViewModelKey(SearchViewModel::class)
     fun bindSearchViewModel(viewModel: SearchViewModel): ViewModel
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(MovieDetailsViewModel::class)
+    fun bindDetailsViewModel(viewModel: MovieDetailsViewModel): ViewModel
 
     @Binds
     fun bindViewModelFactory(factory: MoviesViewModelFactory): ViewModelProvider.Factory

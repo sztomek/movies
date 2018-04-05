@@ -2,7 +2,7 @@ package hu.sztomek.movies.presentation.common
 
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
-import hu.sztomek.movies.domain.Operation
+import hu.sztomek.movies.domain.action.Operation
 import hu.sztomek.movies.domain.action.Action
 import io.reactivex.ObservableTransformer
 import io.reactivex.android.schedulers.AndroidSchedulers
