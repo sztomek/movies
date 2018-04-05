@@ -6,12 +6,16 @@ import android.os.Parcelable
 data class SearchUiModel(
         val query: String,
         val page: Int,
+        val totalPages: Int? = null,
+        val statusText: String? = null,
         val searchResults: List<SearchItemUiModel> = emptyList()
 ) : UiModel {
 
     constructor(parcel: Parcel) : this(
             parcel.readString(),
             parcel.readInt(),
+            null,
+            null,
             emptyList()
     )
 

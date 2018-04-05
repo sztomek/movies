@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import hu.sztomek.movies.R
 import hu.sztomek.movies.presentation.model.SearchItemUiModel
 import kotlinx.android.synthetic.main.item_seach_result.view.*
@@ -30,18 +31,19 @@ class MoviesAdapter(var clickListener: ((item: SearchItemUiModel) -> Unit)? = nu
         notifyDataSetChanged()
     }
 
-    fun addItems(newData: List<SearchItemUiModel>) {
-        data.addAll(newData)
-        notifyDataSetChanged()
-    }
-
     inner class ViewHolder(parent: ViewGroup) : RecyclerView.ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_seach_result, parent, false)) {
 
         fun bind(item: SearchItemUiModel) {
-            Glide.with(itemView).load(item.posterUrl).into(itemView.ivPoster)
+            Glide.with(itemView)
+                    .setDefaultRequestOptions(
+                            RequestOptions()
+                                    .error(R.drawable.ic_broken)
+                    )
+                    .load(item.posterUrl)
+                    .into(itemView.ivPoster)
             itemView.tvTitle.text = item.title
-            itemView.tvRating.text = item.rating.toString()
-            itemView.tvBudget.text = item.budget.toString()
+            itemView.tvRating.text = item.rating
+            itemView.tvBudget.text = item.budget
 
             itemView.setOnClickListener {
                 clickListener?.invoke(item)

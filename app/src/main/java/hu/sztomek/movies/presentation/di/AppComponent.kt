@@ -6,12 +6,14 @@ import dagger.android.AndroidInjector
 import dagger.android.DaggerApplication
 import dagger.android.support.AndroidSupportInjectionModule
 import hu.sztomek.movies.data.di.DataModule
+import hu.sztomek.movies.device.di.DeviceModule
 import hu.sztomek.movies.presentation.app.MoviesApplication
 
 @Component(modules = arrayOf(
         AndroidSupportInjectionModule::class,
         AppModule::class,
         DataModule::class,
+        DeviceModule::class,
         ViewModelBinderModule::class,
         ActivityBinderModule::class
 ))

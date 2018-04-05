@@ -2,4 +2,10 @@
     <string name="app_name">Movies</string>
     <string name="label_search">Search</string>
     <string name="hint_title">Type title here</string>
+    <string name="label_please_wait">Please wait…</string>
+    <string name="label_nothing_to_show">No results</string>
+    <string name="format_showing_results">Showing page #%s of %s</string>
+    <string name="error_unknown">Oops! Something went wrong</string>
+    <string name="label_query">Query</string>
+    <string name="error_query_empty">Query cannot be empty!</string>
 </resources>

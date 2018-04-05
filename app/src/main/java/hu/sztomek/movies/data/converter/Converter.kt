@@ -1,39 +1,59 @@
 package hu.sztomek.movies.data.converter
 
 import hu.sztomek.movies.data.model.details.MovieDetailsResponse
+import hu.sztomek.movies.data.model.details.ProductionCompany
 import hu.sztomek.movies.data.model.search.SearchMoviesResponse
 import hu.sztomek.movies.data.model.search.SearchMoviesResult
 import hu.sztomek.movies.domain.model.details.MovieDetails
 import hu.sztomek.movies.domain.model.search.SearchItem
 import hu.sztomek.movies.domain.model.search.SearchResult
 
-fun MovieDetailsResponse.toDomainModel(posterUrl: String) = MovieDetails(
+private fun defaultPosterPathConverter(prefixUrl: String, posterPath: String?): String? {
+    return if (posterPath != null) prefixUrl + posterPath else null
+}
+
+private fun defaultCompaniesConverter(companies: List<ProductionCompany>?): String? {
+    return if (companies?.isEmpty() == false) companies[0].name else null
+}
+
+fun MovieDetailsResponse.toDomainModel(
+        posterPrefixUrl: String
+) = MovieDetails(
         this.id!!,
         this.title,
-        posterUrl + this.posterPath,
+        defaultPosterPathConverter(posterPrefixUrl, posterPath),
         this.budget,
         this.releaseDate,
         this.voteCount,
         this.voteAverage,
         this.runtime,
-        this.productionCompanies?.get(0)?.name
+        defaultCompaniesConverter(productionCompanies)
 )
 
-fun SearchMoviesResult.toDomainModel(budget: Int? = null, posterUrl: String) = SearchItem(
+fun SearchMoviesResult.toDomainModel(
+        budget: Int? = null,
+        posterPrefixUrl: String
+) = SearchItem(
         this.id!!,
         this.title,
         this.voteAverage,
-        posterUrl + this.posterPath,
+        defaultPosterPathConverter(posterPrefixUrl, posterPath),
         budget
 )
 
-fun SearchMoviesResponse.toDomainModel(posterUrl: String): SearchResult {
+fun SearchMoviesResponse.toDomainModel(
+        posterPrefixUrl: String
+): SearchResult {
     val items: MutableList<SearchItem> = mutableListOf()
-    this.results?.forEach { items.add(it.toDomainModel(posterUrl = posterUrl)) }
+    this.results?.forEach {
+        items.add(
+                it.toDomainModel(posterPrefixUrl = posterPrefixUrl)
+        )
+    }
 
     return SearchResult(
-            this.page ?: 0,
-            this.totalPages ?: 0,
+            this.page ?: 1,
+            this.totalPages ?: 1,
             this.totalResults ?: 0,
             items.toList()
     )
