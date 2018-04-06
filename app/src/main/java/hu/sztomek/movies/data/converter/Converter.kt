@@ -27,7 +27,8 @@ fun MovieDetailsResponse.toDomainModel(
         this.voteCount,
         this.voteAverage,
         this.runtime,
-        defaultCompaniesConverter(productionCompanies)
+        defaultCompaniesConverter(productionCompanies),
+        this.homepage
 )
 
 fun SearchMoviesResult.toDomainModel(

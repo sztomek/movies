@@ -17,7 +17,6 @@ class CustomGlide : AppGlideModule() {
         builder.setDefaultRequestOptions(
                 RequestOptions()
                         .error(R.drawable.ic_broken)
-                        .centerCrop()
         )
     }
 

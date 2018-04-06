@@ -1,10 +1,19 @@
-package hu.sztomek.movies.presentation.screen.details
+package hu.sztomek.movies.presentation.model
 
 import android.os.Parcel
 import android.os.Parcelable
-import hu.sztomek.movies.presentation.model.UiModel
 
-data class MovieDetailsUiModel(val movieId: Int) : UiModel {
+data class MovieDetailsUiModel(
+        val movieId: Int,
+        val title: String? = null,
+        val playTime: String? = null,
+        val releaseDate: String? = null,
+        val productionCompany: String? = null,
+        val rating: String? = null,
+        val budget: String? = null,
+        val homePage: String? = null,
+        val posterUrl: String? = null
+) : UiModel {
 
     constructor(parcel: Parcel) : this(
             parcel.readInt()

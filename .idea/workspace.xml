@@ -10,28 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b89e4f96-b383-4b2a-a77c-7bd4fb2dfd2d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_details.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/DataSourceImpl.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/DataSourceImpl.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/di/DataModule.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/di/DataModule.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/ResourceHelperImpl.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/resource/ResourceHelperImpl.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/di/DeviceModule.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/di/DeviceModule.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/DataSource.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/data/DataSource.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/Operation.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/action/Operation.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/ResourceHelper.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/resource/ResourceHelper.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/usecase/DetailsUseCase.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/usecase/DetailsUseCase.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/usecase/SearchUseCase.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/usecase/SearchUseCase.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/converter/Converter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/converter/Converter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/image/CustomGlide.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/image/CustomGlide.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/model/details/MovieDetails.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/model/details/MovieDetails.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseActivity.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseViewModel.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseViewModel.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/ActivityBinderModule.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/ActivityBinderModule.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/AppComponent.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/AppComponent.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/ViewModelBinderModule.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/ViewModelBinderModule.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/MoviesAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/MoviesAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchActivity.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchModule.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchModule.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchViewModel.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchViewModel.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/converter/UiModelConverter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/converter/UiModelConverter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/Navigator.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/Navigator.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/NavigatorImpl.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/NavigatorImpl.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsActivity.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsUiModel.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsViewModel.kt" afterPath="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsViewModel.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_seach_result.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_seach_result.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,86 +49,57 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MovieDetailsActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="86" column="129" lean-forward="false" selection-start-line="86" selection-start-column="129" selection-end-line="86" selection-end-column="129" />
               <folding>
-                <element signature="e#55#389#0" expanded="true" />
+                <element signature="e#55#934#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieDetailsViewModel.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsViewModel.kt">
+      <file leaf-file-name="UiModelConverter.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/converter/UiModelConverter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding>
-                <element signature="e#55#454#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActivityBinderModule.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/ActivityBinderModule.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="292">
+              <caret line="44" column="78" lean-forward="false" selection-start-line="44" selection-start-column="78" selection-end-line="44" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchViewModel.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchViewModel.kt">
+      <file leaf-file-name="MovieDetailsUiModel.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/model/MovieDetailsUiModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="107" column="67" lean-forward="false" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
+            <state relative-caret-position="145">
+              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchModule.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchModule.kt">
+      <file leaf-file-name="item_seach_result.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_seach_result.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchActivity.kt">
+      <file leaf-file-name="NavigatorImpl.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/NavigatorImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseActivity.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppComponent.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/AppComponent.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="544">
+              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -143,11 +110,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="valueResourceFile" />
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -157,8 +124,9 @@
       <find>adjust</find>
       <find>spannablestringbuilder</find>
       <find>searchAction::</find>
-      <find>8dp</find>
       <find>@Binds</find>
+      <find>home</find>
+      <find>8dp</find>
     </findStrings>
     <replaceStrings>
       <replace>@dimen/default_padding</replace>
@@ -2349,16 +2317,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/AppModule.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/model/SearchItemUiModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/usecase/StringResourceUseCase.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/DataSourceImpl.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/converter/UiModelConverter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_seach_result.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/model/SearchUiModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/ResourceHelper.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/ResourceHelperImpl.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/action/SearchNextPageAction.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/action/SearchAction.kt" />
@@ -2371,7 +2329,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/ImageLoader.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/image/CustomGlide.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/image/ImageLoaderFormat.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/image/ImageViewTarget.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/image/ImageLoaderException.kt" />
@@ -2380,26 +2337,37 @@
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/image/ImageLoader.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/di/DeviceModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/action/Operation.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/converter/Converter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/image/ImageLoaderImpl.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/resource/ResourceHelperImpl.kt" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/NavigatorModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/NavigationException.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/NavigatorImpl.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/Navigator.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/AppComponent.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsUiModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/DetailsViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/ViewModelBinderModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/DetailsActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/ActivityBinderModule.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/model/details/MovieDetails.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/converter/Converter.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_loading.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_error.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsUiModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_seach_result.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/Navigator.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/NavigatorImpl.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_details.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/converter/UiModelConverter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/model/MovieDetailsUiModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/image/CustomGlide.kt" />
       </list>
     </option>
   </component>
@@ -2427,8 +2395,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2452,6 +2422,21 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="movies" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="movies" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="movies" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="presentation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2460,7 +2445,7 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="movies" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="movies" type="1abcf292:AndroidViewProjectNode" />
@@ -2468,15 +2453,7 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="movies" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="di" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movies" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="movies" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="movies" type="1abcf292:AndroidViewProjectNode" />
@@ -2485,15 +2462,6 @@
               <item name="movies" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="presentation" type="462c0819:PsiDirectoryNode" />
               <item name="screen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movies" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="movies" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="screen" type="462c0819:PsiDirectoryNode" />
-              <item name="details" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="movies" type="1abcf292:AndroidViewProjectNode" />
@@ -2506,14 +2474,23 @@
             </path>
             <path>
               <item name="movies" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="movies" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="movies" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2522,16 +2499,16 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sample/android-architecture/todoapp" />
-    <property name="device.picker.selection" value="04dfd8175592d7b1" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/dev/repositories/references/movies/app/src/main/java/hu/sztomek/movies/presentation/common/BaseViewModel.kt" />
+    <property name="device.picker.selection" value="01ce11780bd3ce53" />
+    <property name="SearchEverywhereHistoryKey" value="navigator&#9;FILE&#9;file://F:/dev/repositories/references/movies/app/src/main/java/hu/sztomek/movies/presentation/navigation/NavigatorImpl.kt" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="hu.sztomek.movies.presentation.model" />
       <recent name="hu.sztomek.movies.domain.resource" />
       <recent name="hu.sztomek.movies.domain.data" />
       <recent name="hu.sztomek.movies.device.image" />
       <recent name="hu.sztomek.movies.device.resource" />
-      <recent name="hu.sztomek.movies.domain.image" />
     </key>
     <key name="android.template.packageName">
       <recent name="hu.sztomek.movies.presentation.screen.details" />
@@ -2734,16 +2711,15 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16538037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.67971337" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2755,6 +2731,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2816,81 +2793,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/model/SearchUiModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/action/SearchNextPageAction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="74" lean-forward="false" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/action/SearchAction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/usecase/SearchUseCase.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_seach_result.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="62" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design/27.1.0/d31d35ad48d0f5da0e84c4b4fa9606c5fa9c10f5/design-27.1.0-sources.jar!/android/support/design/widget/TextInputEditText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/UiError.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -2907,19 +2809,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/exception/FormValidationException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/exception/FormValidationException.kt" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.30/50878770fd010106bd91f2f5c3b7904a56883ec3/kotlin-stdlib-1.2.30-sources.jar!/kotlin/Throwable.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2927,44 +2821,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding>
-            <element signature="e#586#610#0" expanded="false" />
-            <element signature="e#645#669#0" expanded="false" />
-            <element signature="e#705#729#0" expanded="false" />
-            <element signature="e#765#789#0" expanded="false" />
-            <element signature="e#823#847#0" expanded="false" />
-            <element signature="e#869#890#0" expanded="false" />
-            <element signature="e#1293#1313#0" expanded="false" />
-            <element signature="e#1580#1604#0" expanded="false" />
-            <element signature="e#1639#1663#0" expanded="false" />
-            <element signature="e#1699#1723#0" expanded="false" />
-            <element signature="e#1759#1783#0" expanded="false" />
-            <element signature="e#1817#1841#0" expanded="false" />
-            <element signature="e#1863#1885#0" expanded="false" />
-            <element signature="e#2214#2238#0" expanded="false" />
-            <element signature="e#2273#2297#0" expanded="false" />
-            <element signature="e#2333#2357#0" expanded="false" />
-            <element signature="e#2393#2417#0" expanded="false" />
-            <element signature="e#2451#2475#0" expanded="false" />
-            <element signature="e#2896#2920#0" expanded="false" />
-            <element signature="e#2954#2978#0" expanded="false" />
-            <element signature="e#3013#3037#0" expanded="false" />
-            <element signature="e#3073#3097#0" expanded="false" />
-            <element signature="e#3133#3157#0" expanded="false" />
-            <element signature="e#3191#3215#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/image/ImageLoaderTarget.kt">
@@ -2975,37 +2832,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/image/ImageLoaderResult.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/image/ImageLoaderFormat.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/image/ImageLoaderResult.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/image/ImageLoaderFormat.kt" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.6.1/8a2a7dd66e095284e0ab8b481c0ad0a4e0bd2f16/glide-4.6.1-sources.jar!/com/bumptech/glide/request/target/ImageViewTarget.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="18" column="71" lean-forward="true" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/image/CustomGlide.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#306#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3013,7 +2845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3031,7 +2862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3071,9 +2901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#37#368#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3089,26 +2916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3116,15 +2923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/converter/Converter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3146,58 +2944,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/Navigator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/NavigatorImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#51#172#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="75" lean-forward="false" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
           <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/AppComponent.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsUiModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#55#160#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3205,50 +2959,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#55#389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#55#454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsModule.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="70" lean-forward="false" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsModule.kt" />
     <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/hu/sztomek/movies/presentation/di/AppComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchViewModel.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/di/AppComponent.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="107" column="67" lean-forward="false" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
+        <state relative-caret-position="408">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -3269,10 +3002,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/model/details/MovieDetailsResponse.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/domain/model/details/MovieDetails.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/data/converter/Converter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_error.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_loading.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#700#724#0" expanded="false" />
+            <element signature="e#758#782#0" expanded="false" />
+            <element signature="e#817#841#0" expanded="false" />
+            <element signature="e#877#901#0" expanded="false" />
+            <element signature="e#937#961#0" expanded="false" />
+            <element signature="e#995#1019#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="42" column="118" lean-forward="false" selection-start-line="42" selection-start-column="118" selection-end-line="42" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/common/BaseViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="59" column="71" lean-forward="true" selection-start-line="59" selection-start-column="71" selection-end-line="59" selection-end-column="71" />
+          <folding>
+            <element signature="e#47#530#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/search/SearchActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#592#616#0" expanded="false" />
+            <element signature="e#650#674#0" expanded="false" />
+            <element signature="e#709#733#0" expanded="false" />
+            <element signature="e#769#793#0" expanded="false" />
+            <element signature="e#829#853#0" expanded="false" />
+            <element signature="e#887#911#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_details.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/model/SearchItemUiModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="64" column="74" lean-forward="false" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
+          <folding>
+            <element signature="e#55#835#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/Navigator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/navigation/NavigatorImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/screen/details/MovieDetailsActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="86" column="129" lean-forward="false" selection-start-line="86" selection-start-column="129" selection-end-line="86" selection-end-column="129" />
+          <folding>
+            <element signature="e#55#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/converter/UiModelConverter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="44" column="78" lean-forward="false" selection-start-line="44" selection-start-column="78" selection-end-line="44" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/device/image/CustomGlide.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/hu/sztomek/movies/presentation/model/MovieDetailsUiModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_seach_result.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
           <folding />
         </state>
       </provider>

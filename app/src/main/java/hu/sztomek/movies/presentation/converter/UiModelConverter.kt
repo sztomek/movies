@@ -1,6 +1,8 @@
 package hu.sztomek.movies.presentation.converter
 
+import hu.sztomek.movies.domain.model.details.MovieDetails
 import hu.sztomek.movies.domain.model.search.SearchItem
+import hu.sztomek.movies.presentation.model.MovieDetailsUiModel
 import hu.sztomek.movies.presentation.model.SearchItemUiModel
 
 private fun defaultTitleConverter(title: String?): String {
@@ -20,6 +22,10 @@ private fun defaultBudgetConverter(budget: Int?): String {
     }
 }
 
+private fun defaultPlayTimeConverter(playTime: Int?): String {
+    return if (playTime == null) "N/A" else "${playTime/60}:${playTime%60}"
+}
+
 fun SearchItem.toUiModel(
         titleConverter: ((title: String?) -> String) = ::defaultTitleConverter,
         ratingConverter: ((rating: Double?) -> String) = ::defaultRatingConverter,
@@ -30,4 +36,21 @@ fun SearchItem.toUiModel(
         posterUrl,
         ratingConverter(rating),
         budgetConverter(budget)
+)
+
+fun MovieDetails.toUiModel(
+        titleConverter: ((title: String?) -> String) = ::defaultTitleConverter,
+        playTimeConverter: ((playTime: Int?) -> String) = ::defaultPlayTimeConverter,
+        ratingConverter: ((rating: Double?) -> String) = ::defaultRatingConverter,
+        budgetConverter: ((budget: Int?) -> String) = ::defaultBudgetConverter
+) = MovieDetailsUiModel(
+        id,
+        titleConverter(title),
+        playTimeConverter(playTime),
+        releaseDate,
+        company,
+        ratingConverter(rating),
+        budgetConverter(budget),
+        homePage,
+        posterUrl
 )

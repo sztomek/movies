@@ -12,7 +12,7 @@ import hu.sztomek.movies.presentation.navigation.Navigator
 import timber.log.Timber
 import javax.inject.Inject
 
-abstract class BaseActivity<M : UiModel> : AppCompatActivity() {
+abstract class BaseActivity<out M : UiModel> : AppCompatActivity() {
 
     private companion object {
         private const val KEY_STATE = "movies.state"

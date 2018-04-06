@@ -11,5 +11,6 @@ data class MovieDetails(
         val totalRatings: Int?,
         val rating: Double?,
         val playTime: Int?,
-        val company: String?
+        val company: String?,
+        val homePage: String?
 ) : DomainModel

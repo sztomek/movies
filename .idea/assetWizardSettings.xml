@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/dev/tools/android/studio/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_broken_image_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/C:/dev/tools/android/studio/plugins/android/lib/android.jar!/images/material_design_icons/alert/ic_error_outline_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,11 +33,10 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="height" value="64" />
-                            <entry key="outputName" value="ic_broken" />
+                            <entry key="color" value="ff0000" />
+                            <entry key="outputName" value="ic_error" />
                             <entry key="overrideSize" value="true" />
                             <entry key="sourceFile" value="C:\Users\sztomek" />
-                            <entry key="width" value="64" />
                           </map>
                         </option>
                       </PersistentState>

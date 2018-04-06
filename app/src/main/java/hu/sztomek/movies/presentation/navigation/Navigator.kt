@@ -10,4 +10,6 @@ interface Navigator {
     fun goDetails(movieId: Int)
     fun back()
 
+    fun openInBrowser(url: String)
+
 }
