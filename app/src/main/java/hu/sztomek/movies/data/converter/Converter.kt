@@ -13,7 +13,7 @@ private fun defaultPosterPathConverter(prefixUrl: String, posterPath: String?): 
 }
 
 private fun defaultCompaniesConverter(companies: List<ProductionCompany>?): String? {
-    return if (companies?.isEmpty() == false) companies[0].name else null
+    return companies?.firstOrNull()?.name
 }
 
 fun MovieDetailsResponse.toDomainModel(

@@ -29,7 +29,7 @@ abstract class BaseViewModel : ViewModel() {
 
     fun takeInitialState(initialState: UiState) {
         if (subscribedToActions) {
-            throw IllegalStateException("Already called takeInitialState!")
+            return
         }
 
         stateStream.value = initialState
